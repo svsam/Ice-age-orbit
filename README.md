@@ -1,13 +1,10 @@
 # Earth Orbit and Ice-Age Physical Simulation
 
 ## Overview
-
-This project now uses a **Python-native desktop simulation** instead of a browser-based viewer. The codebase is split into reusable modules so that constants, orbital mechanics, climate calculations, exporters, and the Tkinter rendering engine are isolated and imported where needed.
-
 The application provides:
 
 - a Python desktop simulation engine built with `tkinter`,
-- a **permanent top-down view** so the changing orbit shape is always visible,
+- a **top-down view** so the changing orbit shape is always visible,
 - low-contrast dashed reference curves for the **minimum and maximum eccentricity envelopes**,
 - an Earth disc with a **solid seasonal colour gradient** instead of point/circle markers,
 - axial tilt modulation so the warmest band on Earth shifts as the planet revolves around the Sun,
